@@ -1,5 +1,19 @@
 # Example Certification Projects
 
+## Development
+
+Use Node.js 24 and pnpm 12.21.0. Install the root development dependencies
+with:
+
+```console
+pnpm install --frozen-lockfile
+```
+
+Each directory under `apps/` is an independent project with its own lockfile.
+Run pnpm commands from the application directory when working on one app.
+To build and start the complete Docker Compose stack, copy `sample.env` to
+`.env`, then run `pnpm build` and `pnpm start` from the repository root.
+
 ## Responsive Web Design
 
 - Tribute Page

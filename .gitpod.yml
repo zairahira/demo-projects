@@ -12,13 +12,13 @@ tasks:
       export DEMO_APPS_DOMAIN=$(gp url)
   - init: |
       cp sample.env .env
-      npm ci
+      npm install --global pnpm@12.21.0 pm2@7.1.2
+      pnpm install --frozen-lockfile
       mkdir /workspace/log
       mongod --fork --dbpath /data/db --logpath /workspace/log/mongod.log
     command: |
-      npm i -g pm2
       for file in apps/**/sample.env; do cp $file ${file/sample/}; done;
-      npm run start
+      pnpm start
 vscode:
   extensions:
     - dbaeumer.vscode-eslint
