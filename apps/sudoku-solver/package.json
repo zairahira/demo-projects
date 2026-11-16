@@ -20,5 +20,6 @@
     "jsdom": "16.7.0",
     "mocha": "9.2.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@12.21.0"
 }

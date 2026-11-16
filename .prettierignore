@@ -1,5 +1,7 @@
 # Ignore minified libraries
 apps/voting-app/public/*.min.js
+# Ignore generated lockfiles
+**/pnpm-lock.yaml
 # Ignore bundles
 apps/**/public/bundle.js
 # Ignore test runner files?

@@ -16,5 +16,6 @@
     "mocha": "9.2.2",
     "mongoose": "5.13.22"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@12.21.0"
 }

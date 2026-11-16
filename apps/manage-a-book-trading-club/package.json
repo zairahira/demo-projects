@@ -39,5 +39,6 @@
     "passport": "0.5.2",
     "passport-github": "1.1.0",
     "pug": "3.0.4"
-  }
+  },
+  "packageManager": "pnpm@12.21.0"
 }

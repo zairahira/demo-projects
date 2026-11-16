@@ -22,5 +22,6 @@
     "mocha": "9.2.2",
     "socket.io": "4.8.4"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@12.21.0"
 }

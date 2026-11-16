@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "build": "rollup -c",
-    "prepare": "npm run build"
+    "prepare": "pnpm run build"
   },
   "dependencies": {
     "dotenv": "16.6.1",
@@ -22,5 +22,6 @@
     "@rollup/plugin-replace": "5.0.7",
     "@rollup/plugin-terser": "0.2.0",
     "rollup": "2.80.0"
-  }
+  },
+  "packageManager": "pnpm@12.21.0"
 }

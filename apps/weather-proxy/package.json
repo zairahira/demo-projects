@@ -11,5 +11,6 @@
     "dotenv": "14.3.2",
     "express": "4.22.3",
     "request": "2.88.2"
-  }
+  },
+  "packageManager": "pnpm@12.21.0"
 }

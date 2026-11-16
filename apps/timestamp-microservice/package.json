@@ -15,5 +15,6 @@
     "express": "4.22.3",
     "mocha": "9.2.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@12.21.0"
 }

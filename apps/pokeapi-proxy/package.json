@@ -14,5 +14,6 @@
     "dotenv": "16.6.1",
     "express": "4.22.3",
     "node-cache": "5.1.2"
-  }
+  },
+  "packageManager": "pnpm@12.21.0"
 }

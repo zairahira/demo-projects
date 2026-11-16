@@ -18,5 +18,6 @@
     "google-images": "2.1.0",
     "moment": "2.31.0",
     "mongodb": "3.7.4"
-  }
+  },
+  "packageManager": "pnpm@12.21.0"
 }

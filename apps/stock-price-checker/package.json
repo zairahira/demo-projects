@@ -31,5 +31,6 @@
     "hyperdev",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@12.21.0"
 }
