@@ -1,6 +1,8 @@
-FROM node:18-bullseye-slim
+FROM node:24-bookworm-slim
 
 WORKDIR /app
+
+RUN npm install --global pnpm@12.21.0
 
 # Copy over all the files in the project directory to /app early
 # for rollup bundling
@@ -9,6 +11,6 @@ COPY . .
 ENV PORT=3000
 ENV DB_URI=${STOCK_PRICE_CHECKER_DB_URI}
 
-RUN npm ci
+RUN pnpm install --frozen-lockfile
 
-CMD ["npm", "start"]
+CMD ["pnpm", "start"]
