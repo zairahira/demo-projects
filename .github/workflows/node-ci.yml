@@ -32,7 +32,7 @@ jobs:
 
       - name: Start Projects
         run: |
-          pnpm run build -- --no-cache
+          pnpm run build --no-cache
           pnpm start
 
       - name: Sleep For 30 Seconds
